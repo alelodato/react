@@ -7,10 +7,11 @@ import ConditionalRenderingClass from './components/ConditionalRenderingClass';
 import NestingComponents from './components/NestingComponents';
 import MethodsAsPropsParent from "./components/MethodsAsPropsParent";
 import MethodsAsPropsChild from './components/MethodsAsPropsChild';
+import RenderingLists from './components/RenderingLists';
 
 function App() {
   return <div className="App">
-      <MethodsAsPropsParent />
+      <RenderingLists />
   </div>;
 }
 
