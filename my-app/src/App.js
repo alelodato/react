@@ -9,10 +9,11 @@ import MethodsAsPropsParent from "./components/MethodsAsPropsParent";
 import MethodsAsPropsChild from './components/MethodsAsPropsChild';
 import RenderingLists from './components/RenderingLists';
 import ControlledForm from './components/ControlledForm';
+import UncontrolledForm from './components/UncontrolledForm';
 
 function App() {
   return <div className="App">
-      <ControlledForm />
+      <UncontrolledForm />
   </div>;
 }
 
